@@ -12,5 +12,5 @@ dj30_df = dj30_df.loc[:,['Long Date', 'Close']]
 
 for _, row in dj30_df.iterrows():
     print(row['Long Date'], row['Close'], flush = True)
-    time.sleep(1.0)
+    time.sleep(delay)
 
